@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Portfolio — Meta Tags, Lighthouse 100, Results | Rose Marry Aparre</title>
+    <meta name="description" content="How Rose Marry Aparre integrates SEO: meta title and description writing, Lighthouse 100 scores, on-page best practices, and real Google ranking results.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rosemarryadaparre.com/pages/seo.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<!-- ===== NAV ===== -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+        <a href="../index.html#home" class="nav-logo">Rose<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portfolio">Portfolio</a></li>
+            <li><a href="../index.html#writing">Writing</a></li>
+            <li><a href="../index.html#insights">Insights</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../index.html#contact" class="nav-cta">Let's Connect</a></li>
+        </ul>
+        <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <a href="../index.html#about" onclick="closeNav()">About</a>
+    <a href="../index.html#services" onclick="closeNav()">Services</a>
+    <a href="../index.html#portfolio" onclick="closeNav()">Portfolio</a>
+    <a href="../index.html#writing" onclick="closeNav()">Writing Sample</a>
+    <a href="../index.html#insights" onclick="closeNav()">Insights</a>
+    <a href="../index.html#experience" onclick="closeNav()">Experience</a>
+    <a href="../index.html#academic" onclick="closeNav()">Academic Work</a>
+    <a href="../index.html#contact" onclick="closeNav()">Let's Connect</a>
+</div>
+
+
+<section class="portfolio" id="seo" aria-label="SEO strategy, meta tags, Lighthouse scores, and results">
+    <div class="section-inner">
+        <div class="pf-page active">
+            <a class="pf-back" href="../index.html#portfolio">← Back to Work</a>
+            <div class="pf-page-header">
+                <h3 class="pf-page-title">SEO</h3>
+                <p class="pf-page-desc">I check websites for SEO fundamentals, including keywords, meta tags, headings, indexation, and Google visibility, using tools like Google Search Console and Lighthouse.
+</p>
+            </div>
+
+            <div class="pf-block">
+                <div class="pf-block-title">How I integrate SEO</div>
+                <div class="pf-block-desc" contenteditable="false">I integrate SEO directly into the content by applying the keywords provided during onboarding and placing them naturally throughout the page. I optimize meta titles and descriptions, check H1, H2, and H3 structure, and use Google Search Console to submit XML sitemaps and request indexing for updated pages. I also use Lighthouse to check page performance before publication.</div>
+            </div>
+
+            <div class="pf-block">
+                <div class="pf-block-title">Meta title &amp; description editor</div>
+                <div class="pf-block-desc">How I write and refine meta titles and descriptions.</div>
+                <div class="serp-tool">
+                    <div class="serp-inputs">
+                        <div class="serp-field">
+                            <label class="serp-field-label" for="serpTitleInput">Meta Title <span class="serp-counter" id="serpTitleCounter">0 / 60</span></label>
+                            <p type="text" class="serp-input" id="serpTitleInput" maxlength="70" placeholder="e.g. Best Coffee Shop in Manila | BrandName" oninput="updateSerp()">Wolfpack ATV Riding | ATV Rentals in Brooksville, FL 34602</p>
+                        </div>
+                        <div class="serp-field">
+                            <label class="serp-field-label" for="serpDescInput">Meta Description <span class="serp-counter" id="serpDescCounter">0 / 160</span></label>
+                            <p type="text" class="serp-input" id="serpDescInput" maxlength="180" placeholder="e.g. Freshly roasted coffee, fast Wi-Fi, and cozy seating in the heart of Manila. Order ahead or visit us today." oninput="updateSerp()">
+                        ATV Rentals in Brooksville, FL 34602. Guided and self-guided ATV tours across 2,600 acres of scenic trails near Tampa. Book your ride today.</p>
+                            </div>
+                    </div>
+                    <div class="serp-preview-label">Google search preview</div>
+                    <div class="serp-preview-box">
+                        <div class="serp-url">www.yourwebsite.com <span>› page</span></div>
+                        <div class="serp-title" id="serpTitlePreview">Wolfpack Riding | ATV Rentals in Brooksville, FL 34602</div>
+                        <div class="serp-desc" id="serpDescPreview">ATV Rentals in Brooksville, FL 34602. Guided and self-guided ATV tours across 2,600 acres of scenic trails near Tampa. Book your ride today.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pf-block">
+                <div class="pf-block-title">How I ensure a 100 on Lighthouse</div>
+                <div class="pf-block-desc">Compressed images, semantic HTML, minified assets, proper heading hierarchy, descriptive alt text, and mobile-first structure. </div>
+                <div class="seo-lighthouse">
+                    <div class="lh-score">
+                        <div class="lh-circle-wrap">
+                            <svg class="lh-circle-svg" width="80" height="80" viewBox="0 0 80 80">
+                                <circle class="lh-circle-bg" cx="40" cy="40" r="35"></circle>
+                                <circle class="lh-circle-fill" cx="40" cy="40" r="35"></circle>
+                            </svg>
+                            <span class="lh-num">100</span>
+                        </div>
+                        <span class="lh-label">Performance</span>
+                    </div>
+                    <div class="lh-score">
+                        <div class="lh-circle-wrap">
+                            <svg class="lh-circle-svg" width="80" height="80" viewBox="0 0 80 80">
+                                <circle class="lh-circle-bg" cx="40" cy="40" r="35"></circle>
+                                <circle class="lh-circle-fill" cx="40" cy="40" r="35"></circle>
+                            </svg>
+                            <span class="lh-num">100</span>
+                        </div>
+                        <span class="lh-label">Accessibility</span>
+                    </div>
+                    <div class="lh-score">
+                        <div class="lh-circle-wrap">
+                            <svg class="lh-circle-svg" width="80" height="80" viewBox="0 0 80 80">
+                                <circle class="lh-circle-bg" cx="40" cy="40" r="35"></circle>
+                                <circle class="lh-circle-fill" cx="40" cy="40" r="35"></circle>
+                            </svg>
+                            <span class="lh-num">100</span>
+                        </div>
+                        <span class="lh-label">Best Practices</span>
+                    </div>
+                    <div class="lh-score">
+                        <div class="lh-circle-wrap">
+                            <svg class="lh-circle-svg" width="80" height="80" viewBox="0 0 80 80">
+                                <circle class="lh-circle-bg" cx="40" cy="40" r="35"></circle>
+                                <circle class="lh-circle-fill" cx="40" cy="40" r="35"></circle>
+                            </svg>
+                            <span class="lh-num">100</span>
+                        </div>
+                        <span class="lh-label">SEO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pf-block">
+                <div class="pf-block-title">SEO best practices I follow</div>
+                <ul class="seo-checklist">
+                    <li class="seo-check-item checked"><span class="check-box">✓</span><span class="check-text"><strong>Keyword Validation</strong>Customer-provided keywords are validated for relevance and content alignment.</span></li>
+                    <li class="seo-check-item checked"><span class="check-box">✓</span><span class="check-text"><strong>Meta Titles & Descriptions</strong>Unique, keyword-aware, and written to earn the click.</span></li>
+                    <li class="seo-check-item checked"><span class="check-box">✓</span><span class="check-text"><strong>Header Tag Hierarchy</strong>One H1 per page, logical H2/H3 structure throughout.</span></li>
+                    <li class="seo-check-item checked"><span class="check-box">✓</span><span class="check-text"><strong>Image Alt Text</strong>Descriptive, keyword-relevant alt attributes on every image.</span></li>
+                    <li class="seo-check-item checked"><span class="check-box">✓</span><span class="check-text"><strong>Internal Linking</strong>Related pages linked with natural, relevant anchor text.</span></li>
+                    <li class="seo-check-item checked"><span class="check-box">✓</span><span class="check-text"><strong>Mobile Optimization</strong>Every page checked and adjusted for mobile-first indexing.</span></li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+<!-- ===== BACK TO TOP ===== -->
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer-inner">
+        <span class="footer-logo">Rose<span>.</span></span>
+        <span class="footer-copy">© 2025 Rose Marry Aparre · Digital Marketing Specialist · Philippines</span>
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="../index.html#home">Top</a>
+            <a href="../index.html#portfolio">Work</a>
+            <a href="https://www.linkedin.com/in/rose-marry-aparre-a845381b8/" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+    </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+<script>
+function animateLighthouse() {
+    document.querySelectorAll('.lh-circle-fill').forEach(c => c.classList.add('animate'));
+}
+function updateSerp() {
+    const titleInput = document.getElementById('serpTitleInput');
+    const descInput  = document.getElementById('serpDescInput');
+    const title = titleInput.value.trim();
+    const desc  = descInput.value.trim();
+
+    document.getElementById('serpTitlePreview').textContent = title || 'Your Meta Title Shows Up Here';
+    document.getElementById('serpDescPreview').textContent  = desc  || "Your meta description shows up here — write it to earn the click, inside Google's ~160 character limit.";
+
+    const titleCounter = document.getElementById('serpTitleCounter');
+    titleCounter.textContent = title.length + ' / 60';
+    titleCounter.classList.toggle('warn', title.length > 60);
+
+    const descCounter = document.getElementById('serpDescCounter');
+    descCounter.textContent = desc.length + ' / 160';
+    descCounter.classList.toggle('warn', desc.length > 160);
+}
+setTimeout(animateLighthouse, 300);
+</script>
+</body>
+</html>
