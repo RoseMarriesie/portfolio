@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://rosemarriesie.github.io/portfolio/</loc>
   </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/certificates-training.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/gmb-optimization.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/qa-revisions.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/seo.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/social-media.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/website-content.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rosemarriesie.github.io/portfolio/writing-sample.html</loc>
+  </url>
+
 </urlset>
